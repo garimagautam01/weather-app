@@ -84,7 +84,8 @@ body {
 }
 
 .widget .weatherInfo .description .place {
-    font-size: 15px;
+    font-size: 25px;
+    font-weight: 600;
 }
 
 .widget .date {

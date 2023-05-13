@@ -27,7 +27,7 @@ const Weathercard = ({ tempInfo }) => {
     useEffect(() => {
         if (weathermode) {
             switch (weathermode) {
-                case "clouds":
+                case "Clouds":
                     setWeatherState( <BsFillCloudsFill/> );
                     break;
                 case "Haze":
@@ -55,7 +55,7 @@ const Weathercard = ({ tempInfo }) => {
         <>
             <article className="widget">
                 <div className="weatherIcon">
-                   <span className={`${weathermode}`}></span>
+                   {weatherState}
                 </div>
                 <div className="weatherInfo">
                     <div className="temperature">
